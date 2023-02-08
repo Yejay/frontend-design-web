@@ -1,39 +1,36 @@
-/* contact */
-
+/* contact section */
 .contact-info p {
-	margin-top: 30px;
+	margin-top: 1.9rem;
 }
 
+/* set the style for the contact info icons */
 .contact-info p i {
 	color: #25be58;
-	margin-right: 15px;
-	font-size: 25px;
+	margin-right: 1rem;
+	font-size: 1.6rem;
 }
 
 .social-icons {
-	margin-top: 30px;
+	margin-top: 1rem;
 }
 
+/* set the style for the social icons */
 .social-icons a {
 	text-decoration: none;
-	font-size: 30px;
-	margin-right: 15px;
+	font-size: 2rem;
+	margin-right: 1rem;
 	color: #ababab;
 	display: inline-block;
 	transition: transform 0.5s;
 }
 
+/* change the color and transform the social icons on hover */
 .social-icons a:hover {
 	color: #25be58;
-	transform: translateY(-5px);
+	transform: translateY(-0.3rem);
 }
 
-// .btn {
-// 	display: inline-block;
-// 	background: #25be58;
-// 	cursor: pointer;
-// }
-
+/* style the submit button */
 .btn {
 	display: inline-block;
 	background: #25be58;
@@ -41,54 +38,52 @@
 	display: block;
 	margin: 1rem 0;
 	border: 1px solid #25be58;
-	padding: 14px 50px;
-	border-radius: 6px;
+	padding: 0.9rem 2.5rem;
+	border-radius: 0.4rem;
 	color: #080808;
 }
 
+/* style the input fields and text area */
 form input,
 form textarea {
 	width: 100%;
 	border: 0;
 	outline: none;
 	background: #ababab;
-	padding: 15px;
-	margin: 15px 0;
+	padding: 1rem;
+	margin: 1rem 0;
 	color: #000;
-	font-size: 18px;
-	border-radius: 6px;
+	font-size: 1rem;
+	border-radius: 0.4rem;
 }
 
-
-form btn2 {
-	padding: 14px 60px;
-	font-size: 18px;
-	margin-top: 20px;
-}
-
+/* style the copyright section */
 .copyright {
 	width: 100%;
 	text-align: center;
-	padding: 25px 0;
+	padding: 1.6rem 0;
 	background: #ababab;
-	font-weight: 300;
-	margin-top: 20px;
+	margin-top: 1rem;
 }
 
 // alerts test
+
+/* set the default styles for messages */
 .message {
-	margin-top: 10px;
-	padding: 10px;
+	margin-top: 0.6rem;
+	padding: 0.6rem;
 	width: 15rem;
 	text-align: center;
-	border-radius: 6px;
+	border-radius: 0.4rem;
 }
 
+/* style for success messages */
 .success {
 	background-color: #25be58;
 	color: #000;
 }
 
+/* style for error messages */
 .error {
 	background-color: #ff5656;
 	color: #000;

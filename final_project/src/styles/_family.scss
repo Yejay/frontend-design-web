@@ -1,30 +1,56 @@
 /* portfolio */
-#portfolio {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 0;
-	padding-right: 0;
+#family {
+	padding: 50px 0;
 }
 
-.work-list {
+/*    
+	display: grid: This style sets the display property of the element to grid, creating a grid container for the child elements.
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)): This style sets the grid-template-columns property of the element, 
+	creating a grid with columns that have a minimum width of 250px and a maximum width of 1 fraction unit (1fr). 
+	The auto-fit value ensures that the grid will automatically adjust the number of columns based on the size of the container, 
+	so that the columns fill the container and no empty space is left.
+
+    grid-gap: 40px: This style sets the grid-gap property of the element to 40px, adding a 40px gap between the grid items.
+*/
+
+.family-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 40px;
 	margin-top: 50px;
 }
 
-.work {
+.family {
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
 }
 
-.work img {
+.family img {
 	width: 100%;
 	border-radius: 10px;
 	display: block;
 	transition: transform 0.5s;
 }
+
+/*    
+	width: 100%: This style sets the width of the element to 100% of its parent.
+
+    background: linear-gradient(rgba(255, 255, 255, 0.6), #25be58): This style sets the background color of the element to a linear gradient that goes from a transparent white to a green shade.
+
+    position: absolute: This style sets the position of the element to absolute, meaning it will be positioned relative to its parent.
+
+    overflow: hidden: This style sets the overflow property to hidden, meaning any content outside of the element will be hidden.
+
+    justify-content: center: This style sets the justify-content property to center, aligning the child elements horizontally in the center.
+
+    flex-direction: column: This style sets the flex-direction property to column, stacking the child elements vertically.
+
+    text-align: center: This style sets the text-align property of the element to center, aligning the text horizontally in the center.
+
+    transition: height 0.5s: This style sets the transition property of the height of the element to 0.5s, meaning the height of the element will change smoothly over 0.5 seconds.
+*/
 
 .layer {
 	width: 100%;
@@ -36,15 +62,11 @@
 	bottom: 0;
 	overflow: hidden;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding: 0 40px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 1rem;
 	transition: height 0.5s;
 }
 
@@ -53,42 +75,17 @@
 	margin-bottom: 20px;
 }
 
-.layer a {
-	margin-top: 20px;
-	color: #25be58;
-	text-decoration: none;
-	font-size: 18px;
-	line-height: 60px;
-	background: #fff;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	text-align: center;
-}
-
-.work:hover img {
+/*.family:hover img: This selector targets all img elements within an element with the class "family" that are being hovered over. The transform: scale(1.1); style increases the size of the image by 10% when hovered.*/
+.family:hover img {
 	transform: scale(1.1);
 }
 
-.work:hover .layer {
+/*.family:hover .layer: This selector targets all elements with the class "layer" within an element with the class "family" that are being hovered over. The height: 100%; style sets the height of the element to 100% of its parent when hovered.*/
+.family:hover .layer {
 	height: 100%;
 }
 
-// .btn {
-// 	display: block;
-// 	margin-top: 50px;
-// 	margin-bottom: 50px;
-// 	margin-left: auto;
-// 	margin-right: auto;
-// 	width: fit-content;
-// 	border: 1px solid #25be58;
-// 	padding: 14px 50px;
-// 	border-radius: 6px;
-// 	text-decoration: none;
-// 	color: #080808;
-// 	transition: background 0.5s;
-// }
-
+/*.btn:hover: This selector targets all elements with the class "btn" that are being hovered over. The background: #25be58; style changes the background color of the element to a green shade when hovered.*/
 .btn:hover {
 	background: #25be58;
 }

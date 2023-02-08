@@ -1,19 +1,23 @@
+/* Reset default styles for all elements */
 * {
-	margin: 0;
-	padding: 0;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	box-sizing: border-box;
+	margin: 0; /* Removes default margin */
+	padding: 0; /* Removes default padding */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the default font-family */
+	box-sizing: border-box; /* Makes sure that the total width and height of an element includes padding and borders */
 }
 
+/* Smooth scrolling effect for the whole document */
 html {
 	scroll-behavior: smooth;
 }
 
+/* Set default background and text color for the body element */
 body {
 	background: #fff;
 	color: #080808;
 }
 
+/* Container class with 10px padding on both sides */
 .container {
-	padding: 10px 10%;
+	padding: 1rem 10%; /* Adds 10px padding on the top and bottom and 10% padding on the left and right */
 }

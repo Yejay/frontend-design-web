@@ -4,17 +4,13 @@ nav .fas {
 }
 
 @media only screen and (max-width: 800px) {
-	.header-text {
-		margin-top: 20%;
-		font-size: 16px;
-	}
 	.header-text h1 {
-		font-size: 30px;
+		font-size: 2rem;
 	}
 	nav .fas {
 		margin-right: 1rem;
 		display: block;
-		font-size: 25px;
+		font-size: 2rem;
 	}
 	nav ul {
 		background: #25be58;
@@ -52,20 +48,11 @@ nav .fas {
 	}
 
 	.about-col-2 {
-		font-size: 14px;
+		font-size: 1.2rem;
 	}
 
 	.tab-links {
 		font-size: 16px;
 		margin-right: 20px;
-	}
-
-	.contact-left,
-	.contact-right {
-		flex-basis: 100%;
-	}
-
-	.copyright {
-		font-size: 14px;
 	}
 }

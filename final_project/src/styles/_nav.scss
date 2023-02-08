@@ -2,13 +2,11 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	flex-wrap: wrap;
-	/* sticky top nav bar */
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 100;
+	z-index: 3;
 	background: #fff;
 	border-bottom: 2px solid #25be58;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -28,7 +26,7 @@ nav ul li {
 nav ul li a {
 	color: #080808;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.5rem;
 	position: relative;
 }
 

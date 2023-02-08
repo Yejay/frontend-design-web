@@ -1,210 +1,196 @@
 <!DOCTYPE html>
-<html lang="de">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Yejays Portfolio Website</title>
-		<link rel="stylesheet" href="./src/styles/styles.css" />
-		<!-- <link rel="stylesheet" href="style.css" /> -->
-		<script src="https://kit.fontawesome.com/1d464f0b92.js" crossorigin="anonymous"></script>
-		<script defer src="app.js"></script>
-	</head>
-	<body>
-		<div id="header">
-			<div class="container">
-				<nav>
-					<img src="images/panda-logo2.png" class="logo" alt="logo" />
-					<ul id="sidemenu">
-						<li><a href="#header">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#random">Random Facts</a></li>
-						<li><a href="#family">My Family</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<li><i class="fas fa-times" onclick="closemenu()"></i></li>
-					</ul>
-					<i class="fas fa-bars" onclick="openmenu()"></i>
-				</nav>
-			</div>
-		</div>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yejays Portfolio Website</title>
+	<link rel="stylesheet" href="./src/styles/styles.css">
+	<script src="https://kit.fontawesome.com/1d464f0b92.js" crossorigin="anonymous"></script>
+	<script defer src="app.js"></script>
+</head>
+
+<body>
+	<div id="header">
 		<div class="container">
-			<div class="header-text">
-				<h1>
-					Hi, I'm <span>Panda</span><br />
-					And I'm From China
-				</h1>
+			<nav>
+				<img src="images/panda-logo2.png" class="logo" alt="logo">
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#random">Random Facts</a></li>
+					<li><a href="#family">My Family</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><i class="fas fa-times" onclick="closemenu()"></i></li>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+		</div>
+	</div>
+	<div class="container">
+		<div class="header-text">
+			<h1>
+				Hi, I'm <span>Panda</span><br>
+				And I'm From China
+			</h1>
+		</div>
+	</div>
+	<!-- about -->
+	<div id="about">
+		<div class="hidden container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/panda.jpg" alt="">
+				</div>
+
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>
+						I am a Panda and come from the dense forests of China. Pandas like me are very rare creatures
+						and are loved for our unique black and white fur pattern and gentle nature. I
+						am proud of my heritage and happy to be part of this wonderful species. <br><br>
+						As I mentioned earlier, I am a big fan of bamboo and can eat it all day long. It's not only my
+						main food, but also my best friend. I am also a big fan of napping and I
+						think I am one of the best napping makers in the world. I love to lie down on a warm tree trunk
+						or a soft bed of grass and close my eyes. <br><br>
+						But I'm not just a eating and sleeping Panda, I'm also a pretty active and entertaining type. I
+						am a big fan of stunts and tricks and can do some impressive things when I
+						try. I love climbing trees and jumping from branch to branch. I can also do some crazy stunts
+						when I balance bamboo stems. <br><br>
+						Moreover, I am also a very social and friendly Panda. I love spending time with other Pandas and
+						making new friends. We love to play with each other, cuddle, and share our
+						bamboo sticks. <br><br>
+						In conclusion, I am a great Panda who loves to eat, sleep, play, and make new friends. I am
+						proud of my heritage and happy to be part of this wonderful species. I hope you
+						love me just the way I am!
+					</p>
+				</div>
 			</div>
 		</div>
-		<!-- about -->
-		<div id="about">
-			<div class="hidden container">
-				<div class="row">
-					<div class="about-col-1">
-						<img src="images/panda.jpg" alt="" />
-					</div>
-
-					<div class="about-col-2">
-						<h1 class="sub-title">About Me</h1>
+	</div>
+	<!-- services -->
+	<div id="random">
+		<div class="hidden container">
+			<h1 class="sub-title">Random Facts About Pandas</h1>
+			<div class="facts-list">
+				<div>
+					<i class="fa-solid fa-1"></i>
+					<article>
+						<h2>Slow Digestive System</h2>
 						<p>
-							I am a Panda and come from the dense forests of China. Pandas like me are very rare creatures and are loved for our unique black and white fur pattern and gentle nature. I
-							am proud of my heritage and happy to be part of this wonderful species. <br /><br />
-							As I mentioned earlier, I am a big fan of bamboo and can eat it all day long. It's not only my main food, but also my best friend. I am also a big fan of napping and I
-							think I am one of the best napping makers in the world. I love to lie down on a warm tree trunk or a soft bed of grass and close my eyes. <br /><br />
-							But I'm not just a eating and sleeping Panda, I'm also a pretty active and entertaining type. I am a big fan of stunts and tricks and can do some impressive things when I
-							try. I love climbing trees and jumping from branch to branch. I can also do some crazy stunts when I balance bamboo stems. <br /><br />
-							Moreover, I am also a very social and friendly Panda. I love spending time with other Pandas and making new friends. We love to play with each other, cuddle, and share our
-							bamboo sticks. <br /><br />
-							In conclusion, I am a great Panda who loves to eat, sleep, play, and make new friends. I am proud of my heritage and happy to be part of this wonderful species. I hope you
-							love me just the way I am!
+							Pandas have a very slow digestive system and can only digest about 17% of the bamboo they
+							eat. As a result, they have to consume a lot of bamboo to get the nutrients
+							they need, and they spend a lot of time eating.
 						</p>
-						<div class="tab-titles">
-							<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-							<p class="tab-links" onclick="opentab('experience')">Experience</p>
-							<p class="tab-links" onclick="opentab('education')">Education</p>
-						</div>
-						<div class="tab-contents active-tab" id="skills">
-							<ul>
-								<li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
-								<li><span>Web Development</span><br />Web app Development</li>
-								<li><span>App Development</span><br />Building Android/iOS apps</li>
-							</ul>
-						</div>
-						<div class="tab-contents" id="experience">
-							<ul>
-								<li><span>2022 - Current</span><br />Building Android/iOS apps</li>
-								<li><span>2020 - 2022</span><br />Web app Development</li>
-								<li><span>2016 - 2020</span><br />Designing Web/App Interfaces</li>
-							</ul>
-						</div>
-						<div class="tab-contents" id="education">
-							<ul>
-								<li><span>2020</span><br />Building Android/iOS apps</li>
-								<li><span>2018</span><br />Web app Development</li>
-								<li><span>2016</span><br />Designing Web/App Interfaces</li>
-							</ul>
-						</div>
-					</div>
+						<a href="https://www.theguardian.com/science/2015/may/19/hard-to-bear-pandas-poorly-adapted-for-digesting-bamboo-scientists-find"
+							target="_blank">Learn more</a>
+					</article>
+				</div>
+				<div>
+					<article>
+						<i class="fa-solid fa-2"></i>
+						<h2>Eye Patch</h2>
+						<p>Pandas have a black patch around their eyes, which helps to protect their eyes from the sun
+							and glare while they are feeding on bamboo.</p>
+						<a href="https://www.science.org/content/article/how-pandas-got-their-patches"
+							target="_blank">Learn more</a>
+					</article>
+				</div>
+				<div>
+					<article>
+						<i class="fa-solid fa-3"></i>
+						<h2>National Treasure</h2>
+						<p>
+							Pandas have been classified as a "National Treasure" in China and are protected by law. The
+							Chinese government also rents out pandas to zoos around the world for
+							conservation and research purposes.
+						</p>
+						<a href="https://medium.com/@greatjobwall/how-did-the-giant-panda-become-chinas-national-symbol-437afceaac63"
+							target="_blank">Learn more</a>
+					</article>
 				</div>
 			</div>
 		</div>
-		<!-- services -->
-		<div id="random">
-			<div class="hidden container">
-				<h1 class="sub-title">Random Facts About Pandas</h1>
-				<div class="facts-list">
-					<div>
-						<i class="fa-solid fa-1"></i>
-						<article>
-							<h2>Slow Digestive System</h2>
-							<p>
-								Pandas have a very slow digestive system and can only digest about 17% of the bamboo they eat. As a result, they have to consume a lot of bamboo to get the nutrients
-								they need, and they spend a lot of time eating.
-							</p>
-							<a href="https://www.theguardian.com/science/2015/may/19/hard-to-bear-pandas-poorly-adapted-for-digesting-bamboo-scientists-find" target="_blank">Learn more</a>
-						</article>
-					</div>
-					<div>
-						<article>
-							<i class="fa-solid fa-2"></i>
-							<h2>Eye Patch</h2>
-							<p>Pandas have a black patch around their eyes, which helps to protect their eyes from the sun and glare while they are feeding on bamboo.</p>
-							<a href="https://www.science.org/content/article/how-pandas-got-their-patches" target="_blank">Learn more</a>
-						</article>
-					</div>
-					<div>
-						<article>
-							<i class="fa-solid fa-3"></i>
-							<h2>National Treasure</h2>
-							<p>
-								Pandas have been classified as a "National Treasure" in China and are protected by law. The Chinese government also rents out pandas to zoos around the world for
-								conservation and research purposes.
-							</p>
-							<a href="https://medium.com/@greatjobwall/how-did-the-giant-panda-become-chinas-national-symbol-437afceaac63" target="_blank">Learn more</a>
-						</article>
-					</div>
-				</div>
-			</div>
-		</div>
+	</div>
 
-		<!-- family -->
-		<div id="family">
-			<div class="hidden container">
-				<h1 class="sub-title">My Family</h1>
-				<div class="work-list">
-					<div class="work">
-						<img src="images/panda-mother.jpg" alt="" />
-						<div class="layer">
-							<h3>My Mother</h3>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis enim praesentium officiis quod unde voluptate alias esse ea magni debitis, eos ratione nemo
-								placeat veritatis voluptatibus architecto reiciendis doloremque!
-							</p>
-						</div>
-					</div>
-					<div class="work">
-						<img src="images/panda-father.jpg" alt="" />
-						<div class="layer">
-							<h3>My Father</h3>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis enim praesentium officiis quod unde voluptate alias esse ea magni debitis, eos ratione nemo
-								placeat veritatis voluptatibus architecto reiciendis doloremque!
-							</p>
-						</div>
-					</div>
-					<div class="work">
-						<img src="images/panda-brother.jpg" alt="" />
-						<div class="layer">
-							<h3>My Brother</h3>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis enim praesentium officiis quod unde voluptate alias esse ea magni debitis, eos ratione nemo
-								placeat veritatis voluptatibus architecto reiciendis doloremque!
-							</p>
-						</div>
+	<!-- family -->
+	<div id="family">
+		<div class="hidden container">
+			<h1 class="sub-title">My Family</h1>
+			<div class="family-list">
+				<div class="family">
+					<img src="images/panda-mother.jpg" alt="image of a panda">
+					<div class="layer">
+						<h3>My Mother</h3>
+						<p>
+							This is my mother, she likes to lay down, because my father and brother always annoy her.
+						</p>
 					</div>
 				</div>
-				<div class="work-list">
-					<div class="hidden facts-list">
-						<div class="work">
-							<img src="images/game_boy.gif" alt="logo" />
-						</div>
-						<div class="work">
-							<img src="images/hupf.gif" alt="logo" />
-						</div>
-						<div class="work">
-							<img src="images/dance.gif" alt="logo" />
-						</div>
+				<div class="family">
+					<img src="images/panda-father.jpg" alt="image of a panda">
+					<div class="layer">
+						<h3>My Father</h3>
+						<p>
+							This is my father, he likes to annoy my mother and stare into the nothingness of space, like
+							an idiot.
+						</p>
+					</div>
+				</div>
+				<div class="family">
+					<img src="images/panda-brother.jpg" alt="image of a panda">
+					<div class="layer">
+						<h3>My Brother</h3>
+						<p>
+							This is my brother and he his mentally challenged.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="family-list">
+				<div class="hidden facts-list">
+					<div class="family">
+						<img src="images/game_boy.gif" alt="gif of a panda playing games on a portable gaming console">
+					</div>
+					<div class="family">
+						<img src="images/hupf.gif" alt="gif of jumping pandas">
+					</div>
+					<div class="family">
+						<img src="images/dance.gif" alt="gif of a pixaleted panda dancing">
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- contact -->
-		<div id="contact">
-			<div class="hidden container">
-				<div class="contact-info">
-					<h1 class="sub-title">Contact Me</h1>
-					<p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
-					<p><i class="fa-solid fa-square-phone"></i>0123456789</p>
-					<div class="social-icons">
-						<a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
-						<a href=""><i class="fa-brands fa-twitter"></i></a>
-						<a href=""><i class="fa-brands fa-tiktok"></i></a>
-						<a href=""><i class="fa-brands fa-linkedin"></i></a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="contact-form">
-						<form novalidate>
-							<input type="text" name="Name" placeholder="Your Name" required />
-							<input type="email" name="Email" placeholder="Your Email" required />
-							<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-							<button type="submit" class="btn">Submit</button>
-						</form>
-					</div>
+	</div>
+	<!-- contact -->
+	<div id="contact">
+		<div class="hidden container">
+			<div class="contact-info">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+				<p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+				<div class="social-icons">
+					<a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+					<a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+					<a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 				</div>
 			</div>
-			<div class="copyright">
-				<p>Copyright Yejay Demirkan</p>
+			<div class="row">
+				<div class="contact-form">
+					<form novalidate>
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn">Submit</button>
+					</form>
+				</div>
 			</div>
 		</div>
-	</body>
+		<div class="copyright">
+			<p>Copyright Yejay Demirkan</p>
+		</div>
+	</div>
+</body>
+
 </html>
