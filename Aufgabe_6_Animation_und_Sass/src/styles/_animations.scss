@@ -1,0 +1,75 @@
+@keyframes bounce-up {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-220px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes bounce-down {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(220px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes bounce-left {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(-100px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes bounce-right {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(100px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+// @for $i from 1 through 4 {
+// 	$direction: '';
+// 	@if $i == 1 {
+// 		$direction: 'up';
+// 	} @else if $i == 2 {
+// 		$direction: 'down';
+// 	} @else if $i == 3 {
+// 		$direction: 'left';
+// 	} @else if $i == 4 {
+// 		$direction: 'right';
+// 	}
+// 	@keyframes bounce-#{$direction} {
+// 		0% {
+// 			transform: translate(0);
+// 		}
+// 		50% {
+// 			@if $direction == 'up' or $direction == 'down' {
+// 				transform: translateY(#{$i * 220}px);
+// 			} @else {
+// 				transform: translateX(#{$i * 100}px);
+// 			}
+// 		}
+// 		100% {
+// 			transform: translate(0);
+// 		}
+// 	}
+// }

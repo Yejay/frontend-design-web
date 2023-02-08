@@ -1,0 +1,47 @@
+.ball,
+.square,
+.triangle,
+.ball-2,
+.square-2,
+.triangle-2 {
+	margin: 20px;
+}
+
+.ball {
+	@include shape-size(50px, 50px);
+	border-radius: 50%;
+	@include animate-shape(bounce-up, 0.5s);
+	@include random-color();
+}
+
+.square {
+	@include shape-size(50px, 50px);
+	// @include shape-color(green);
+	@include random-color();
+	@include animate-shape(bounce-down, 1s);
+}
+
+.triangle {
+	@include triangle-shape(100px 0 25px 50px, transparent transparent transparent blue);
+	@include animate-shape(bounce-left, 1.5s);
+}
+
+.ball-2 {
+	@include shape-size(25px, 25px);
+	@include shape-color(orange);
+	// @include random-color();
+	border-radius: 50%;
+	@include animate-shape(bounce-right, 2s);
+}
+
+.square-2 {
+	@include shape-size(25px, 25px);
+	@include shape-color(purple);
+	// @include random-color();
+	@include animate-shape(bounce-up, 2.5s);
+}
+
+.triangle-2 {
+	@include triangle-shape(12.5px 0 12.5px 25px, transparent transparent transparent pink);
+	@include animate-shape(bounce-down, 3s);
+}

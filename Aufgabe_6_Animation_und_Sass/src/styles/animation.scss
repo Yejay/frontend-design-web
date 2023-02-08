@@ -1,0 +1,25 @@
+@import 'mixins';
+@import 'shapes';
+@import 'animations';
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: darkslateblue;
+	margin-top: 5%;
+}
+
+.animation-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: darkslategray;
+	width: 500px;
+	height: 500px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border: 2px solid black;
+	border-radius: 10px;
+}

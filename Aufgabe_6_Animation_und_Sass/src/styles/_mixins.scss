@@ -1,0 +1,44 @@
+@mixin animate-shape($animation-name, $animation-duration, $animation-timing-function: ease) {
+	animation: bounce $animation-duration $animation-timing-function infinite;
+	animation-name: $animation-name;
+	animation-name: var(--animation-name);
+}
+
+@mixin shape-size($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+@mixin shape-color($color) {
+	background-color: $color;
+}
+
+@mixin triangle-shape($border-width, $border-color) {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: $border-width;
+	border-color: $border-color;
+}
+
+@mixin random-color() {
+	$random: random(8);
+	@for $i from 1 through $random {
+		@if $i == 1 {
+			background-color: azure;
+		} @else if $i == 2 {
+			background-color: darkred;
+		} @else if $i == 3 {
+			background-color: darkviolet;
+		} @else if $i == 4 {
+			background-color: deeppink;
+		} @else if $i == 5 {
+			background-color: grey;
+		} @else if $i == 6 {
+			background-color: aquamarine;
+		} @else if $i == 7 {
+			background-color: coral;
+		} @else if $i == 8 {
+		}
+	}
+}

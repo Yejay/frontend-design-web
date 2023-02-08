@@ -1,0 +1,95 @@
+/* contact */
+
+.contact-info p {
+	margin-top: 30px;
+}
+
+.contact-info p i {
+	color: #25be58;
+	margin-right: 15px;
+	font-size: 25px;
+}
+
+.social-icons {
+	margin-top: 30px;
+}
+
+.social-icons a {
+	text-decoration: none;
+	font-size: 30px;
+	margin-right: 15px;
+	color: #ababab;
+	display: inline-block;
+	transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+	color: #25be58;
+	transform: translateY(-5px);
+}
+
+// .btn {
+// 	display: inline-block;
+// 	background: #25be58;
+// 	cursor: pointer;
+// }
+
+.btn {
+	display: inline-block;
+	background: #25be58;
+	cursor: pointer;
+	display: block;
+	margin: 1rem 0;
+	border: 1px solid #25be58;
+	padding: 14px 50px;
+	border-radius: 6px;
+	color: #080808;
+}
+
+form input,
+form textarea {
+	width: 100%;
+	border: 0;
+	outline: none;
+	background: #ababab;
+	padding: 15px;
+	margin: 15px 0;
+	color: #000;
+	font-size: 18px;
+	border-radius: 6px;
+}
+
+
+form btn2 {
+	padding: 14px 60px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	padding: 25px 0;
+	background: #ababab;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+// alerts test
+.message {
+	margin-top: 10px;
+	padding: 10px;
+	width: 15rem;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.success {
+	background-color: #25be58;
+	color: #000;
+}
+
+.error {
+	background-color: #ff5656;
+	color: #000;
+}

@@ -1,0 +1,24 @@
+HTML:
+Syntax
+Semantik - (Wartbarkeit, Barrierefreiheit)
+
+CSS:
+Selektoren
+Spezifizität
+?
+    box-sizing
+Layout
+    Flex
+    Grid
+Animation
+    transition
+    animation
+
+SASS:
+module
+Variablen
+nesting
+@mixin @include
+@extend
+Notationen
+functions

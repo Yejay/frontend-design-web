@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(0, 255, 0, 100);
+}
+
+h1 {
+    color: rgba(200, 0, 25, 100);
+}
+
+h2 {
+    color: rgba(150, 0, 0, 100);
+}
+
+li {
+    color: rgba(255, 0, 0, 100);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgba(0, 200, 100, 100);
+    }
+
+}

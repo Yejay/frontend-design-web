@@ -1,0 +1,34 @@
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+nav ul li {
+    display: grid;
+    justify-content: center;
+}
+
+body article {
+    display: grid;
+    justify-content: center;
+}
+
+body article h2 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+}
+
+@media (max-width: 40em) {
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+}

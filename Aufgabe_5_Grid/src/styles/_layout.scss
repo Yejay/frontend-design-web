@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    padding: 0.1rem;
+}
+
+img {
+    display: block;
+    padding-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+$art: article;
+
+
+#article-form {
+    margin-left: 1rem;
+}
+
+main #{$art} {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main article p {
+    @extend #article-form;
+    margin-right: 1rem;
+}
+
+main article h2 {
+    text-align: center;
+}

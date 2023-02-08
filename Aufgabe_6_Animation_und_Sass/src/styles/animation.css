@@ -1,0 +1,200 @@
+.ball,
+.square,
+.triangle,
+.ball-2,
+.square-2,
+.triangle-2 {
+  margin: 20px;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-animation: bounce 0.5s ease infinite;
+          animation: bounce 0.5s ease infinite;
+  -webkit-animation-name: bounce-up;
+          animation-name: bounce-up;
+  -webkit-animation-name: var(--animation-name);
+          animation-name: var(--animation-name);
+  background-color: azure;
+  background-color: darkred;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: azure;
+  background-color: darkred;
+  background-color: darkviolet;
+  -webkit-animation: bounce 1s ease infinite;
+          animation: bounce 1s ease infinite;
+  -webkit-animation-name: bounce-down;
+          animation-name: bounce-down;
+  -webkit-animation-name: var(--animation-name);
+          animation-name: var(--animation-name);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 0 25px 50px;
+  border-color: transparent transparent transparent blue;
+  -webkit-animation: bounce 1.5s ease infinite;
+          animation: bounce 1.5s ease infinite;
+  -webkit-animation-name: bounce-left;
+          animation-name: bounce-left;
+  -webkit-animation-name: var(--animation-name);
+          animation-name: var(--animation-name);
+}
+
+.ball-2 {
+  width: 25px;
+  height: 25px;
+  background-color: orange;
+  border-radius: 50%;
+  -webkit-animation: bounce 2s ease infinite;
+          animation: bounce 2s ease infinite;
+  -webkit-animation-name: bounce-right;
+          animation-name: bounce-right;
+  -webkit-animation-name: var(--animation-name);
+          animation-name: var(--animation-name);
+}
+
+.square-2 {
+  width: 25px;
+  height: 25px;
+  background-color: purple;
+  -webkit-animation: bounce 2.5s ease infinite;
+          animation: bounce 2.5s ease infinite;
+  -webkit-animation-name: bounce-up;
+          animation-name: bounce-up;
+  -webkit-animation-name: var(--animation-name);
+          animation-name: var(--animation-name);
+}
+
+.triangle-2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12.5px 0 12.5px 25px;
+  border-color: transparent transparent transparent pink;
+  -webkit-animation: bounce 3s ease infinite;
+          animation: bounce 3s ease infinite;
+  -webkit-animation-name: bounce-down;
+          animation-name: bounce-down;
+  -webkit-animation-name: var(--animation-name);
+          animation-name: var(--animation-name);
+}
+
+@-webkit-keyframes bounce-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-220px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-220px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes bounce-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(220px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes bounce-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(220px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes bounce-left {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes bounce-left {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes bounce-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes bounce-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: darkslateblue;
+  margin-top: 5%;
+}
+
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  width: 500px;
+  height: 500px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: 2px solid black;
+  border-radius: 10px;
+}/*# sourceMappingURL=animation.css.map */

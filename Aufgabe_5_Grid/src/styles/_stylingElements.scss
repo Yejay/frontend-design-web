@@ -1,0 +1,55 @@
+p {
+    max-width: 65ch;
+}
+
+h1 {
+    font-size: 2rem;
+    border-style: solid;
+    border-radius: 1em;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    border-radius: 1em;
+}
+
+nav ul li {
+    border-style: solid;
+    border-radius: 1em;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#gimli {
+    width: 40%
+}
+
+#mines {
+    width: 60%;
+}
+
+body article {
+    border-style: solid;
+    border-radius: 1em;
+}
+
+body article p {
+    max-width: 200ch;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main article {
+    border-style: solid;
+    border-radius: 1em;
+}

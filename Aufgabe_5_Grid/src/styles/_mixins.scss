@@ -1,0 +1,27 @@
+@mixin gradient-colors($start-color, $end-color) {
+    background: linear-gradient(to bottom, $start-color, $end-color);
+}
+
+@mixin transparent-bg($color: rgb(255, 255, 255), $transparency: 0.5) {
+    background-color: rgba($color, $transparency);
+}
+
+h1 {
+    @include transparent-bg(rgb(226, 226, 196), 1);
+}
+
+nav ul li{
+    @include transparent-bg(rgb(0, 114, 76), 1);
+}
+
+body {
+    @include gradient-colors(#{rgb(0, 114, 76)}, #{rgb(226, 226, 196)}, );
+}
+
+body article {
+    @include transparent-bg(rgb(226, 226, 196), 0.75);
+}
+
+main article {
+    @include transparent-bg(rgb(226, 226, 196), 0.75);
+}

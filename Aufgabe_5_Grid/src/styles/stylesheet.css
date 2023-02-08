@@ -1,0 +1,173 @@
+h1 {
+  background-color: #e2e2c4;
+}
+
+nav ul li {
+  background-color: #00724c;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(0, 114, 76), rgb(226, 226, 196));
+}
+
+body article {
+  background-color: rgba(226, 226, 196, 0.75);
+}
+
+main article {
+  background-color: rgba(226, 226, 196, 0.75);
+}
+
+h1 {
+  color: #007d00;
+  border-color: #7d007d;
+}
+
+h2 {
+  color: #007d00;
+}
+
+nav ul li a {
+  color: #002e85;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul li {
+  display: grid;
+  justify-content: center;
+}
+
+body article {
+  display: grid;
+  justify-content: center;
+}
+
+body article h2 {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+}
+
+@media (max-width: 40em) {
+  nav ul {
+    grid-template-columns: 1fr;
+  }
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+h1 {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  padding: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  padding: 0.1rem;
+}
+
+img {
+  display: block;
+  padding-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#article-form, main article p {
+  margin-left: 1rem;
+}
+
+main article {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+main article p {
+  margin-right: 1rem;
+}
+
+main article h2 {
+  text-align: center;
+}
+
+p {
+  max-width: 65ch;
+}
+
+h1 {
+  font-size: 2rem;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  border-radius: 1em;
+}
+
+nav ul li {
+  border-style: solid;
+  border-radius: 1em;
+}
+
+nav ul li a {
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#gimli {
+  width: 40%;
+}
+
+#mines {
+  width: 60%;
+}
+
+body article {
+  border-style: solid;
+  border-radius: 1em;
+}
+
+body article p {
+  max-width: 200ch;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main article {
+  border-style: solid;
+  border-radius: 1em;
+}
+
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
+}/*# sourceMappingURL=stylesheet.css.map */
